@@ -1,0 +1,29 @@
+{
+  "name": "desafio",
+  "version": "1.0.0",
+  "license": "MIT",
+  "source": "src/index.html",
+  "type": "module",
+  "scripts": {
+    "dev:front": "parcel serve ./client/index.html",
+    "build:front": "parcel build ./client/index.html",
+    "build:api": "tsc",
+    "build": "yarn build:front && yarn build:api",
+    "start": "node ./server/index.js"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/node": "^18.14.6",
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "@vaadin/router": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase": "^9.17.2",
+    "firebase-admin": "^11.5.0",
+    "nanoid": "3.3.4",
+    "typescript": "^4.9.5"
+  }
+}
