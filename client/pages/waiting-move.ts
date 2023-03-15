@@ -49,7 +49,7 @@ class WaitingMovePage extends HTMLElement {
       </div>
       <div class="waiting-move__room">
         <p class="waiting-move__bold">Sala</p>
-        <p class="waiting-move__code">76HH23</p>
+        <p class="waiting-move__code">${this.roomId}</p>
       </div>
     </header>
   

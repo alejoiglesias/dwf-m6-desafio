@@ -38,6 +38,8 @@ export function initButtonComponent() {
         border-radius: 10px;
 
         display: block;
+        
+        cursor: pointer;
       }`;
 
       this.shadow.appendChild(style);
